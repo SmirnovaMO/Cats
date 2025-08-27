@@ -61,4 +61,7 @@ tag_combobox.pack(pady=10)
 load_button = Button(text='Загрузить по тегу', command=open_new_window)
 load_button.pack(pady=10)
 
+random_cat_button = Button(text='Случайный котик', command=open_new_window)
+random_cat_button.pack(pady=10)
+
 window.mainloop()
